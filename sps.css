@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Cinzel:wght@600&family=Orbitron&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    background-color: black;
+    font-family: 'Caveat', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Orbitron', sans-serif;
+  }
+  
+  h1 {
+    background-color: transparent;
+    color: #79C7C5;
+    height: 5rem;
+    line-height: 5rem;
+    margin-top: 2rem;
+  }
+  h1:hover,p:hover,h1{
+    text-shadow: 0 0 2rem #79C7C5;
+  }
+
+
+  .choice {
+    height: 140px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .choice:hover {
+    cursor: pointer;
+   
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 8vmin;
+  }
+  
+  .score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+    color: aquamarine;
+  }
+  
+  #user-score,
+  #comp-score {
+    font-size: 3rem;
+    text-shadow: 0 0 1vmin aquamarine;
+  }
+  
+  .msg-container {
+    margin-top: 5rem;
+  }
+  
+  #msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 4vmin;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-shadow: 0 0 3vmin white;
+  }
